@@ -5,10 +5,6 @@ Config.Locale = GetConvar('esx:locale', 'es')
 Config.key = 7607
 
 
--- [Config.EnableCommands]
--- Enables Commands Such As /char and /chardel
-Config.EnableCommands   = true
-
 -- EXPERIMENTAL Character Registration Method
 Config.UseDeferrals     = false
 
@@ -72,8 +68,12 @@ Config.audiobote = 'botevoz'
 
 Config.audioalarmabote = 'bote'
 
--------------------------------------------- SPAWN
+-------------------------------------------- SPAWN AVION
 
 Config.spawn = {
     {x = -75.256278991699, y = -1100.9984130859, z = 26.120901107788, heading = 335.88592529297}
 }
+
+-------------------------------------------- EVENTO DE MENU DE ROPA
+
+Config.evento = 'esx_skin:openSaveableMenu'
